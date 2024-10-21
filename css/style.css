@@ -1,0 +1,87 @@
+:root {
+  --black-color:     #16161b;
+  --gray-color:      #3d3d3d;
+  --white-color:     #f6f6f6;
+  --dark-blue-color: #553de6;
+  --font-title: "Montserrat", sans-serif;
+}
+
+.bg-black-color{background-color: var(--black-color);}
+.bg-gray{background-color: var(--gray-color);}
+.bg-dark-blue{background-color: var(--dark-blue-color);}
+.text-color{color: var(--white-color);} 
+
+body{
+    font-family: var(--font-title);
+}
+
+.navbar {
+  background-color: var(--dark-blue-color);
+}
+
+.nav-link{
+  color: var(--white-color);
+}
+
+.robo_apresentacao{
+  justify-content: center;
+  align-items: center;
+}
+
+.robo1{
+  max-height: 450px;
+}
+
+.robo_apresentacao_image{
+  border-radius: 50%;
+  max-width: auto;
+  max-height: 1000px;
+
+}
+
+.img-robo{
+  border-radius: 8px;
+  
+}
+
+.card{
+  background-color: var(--dark-blue-color);
+  color: var(--white-color);
+  padding: 1rem;
+  border-radius: 0.8rem;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.card-img-top{
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.evento_image{
+  max-width: 200px;
+  max-height: 500px;
+}
+
+.footer{
+  background-color: var(--dark-blue-color);
+}
+
+.logo-fiap{
+
+max-width: 45%;
+}
+
+.icon{
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.carousel-img{
+  max-width: 500px;
+  max-height: 800px;
+}
